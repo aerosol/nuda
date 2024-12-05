@@ -17,6 +17,7 @@ local colors = {
   cy1 = "#6a8581",
   wh0 = "#707376",
   wh1 = "#848685",
+  spotlight = "#446689",
 }
 
 return colors

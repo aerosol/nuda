@@ -39,8 +39,12 @@ cy1='#6a8581'
 wh0='#707376'
 wh1='#848685'
 
+spotlight='#446689'
+
 [highlights]
 Normal = 'fg bg'
+Visual = 'ye1 spotlight'
+MatchParen = 'ye1 re0'
 Statement = 'fg -'
 Function = 'fg -'
 Title = 'fg - i'

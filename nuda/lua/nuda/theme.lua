@@ -8,6 +8,8 @@ theme.set_highlights = function()
 
   -- highlights
   hl(0, "Normal", { fg = c.fg, bg = c.bg })
+  hl(0, "Visual", { fg = c.ye1, bg = c.spotlight })
+  hl(0, "MatchParen", { fg = c.ye1, bg = c.re0 })
   hl(0, "Statement", { fg = c.fg, bg = 'NONE' })
   hl(0, "Function", { fg = c.fg, bg = 'NONE' })
   hl(0, "Title", { fg = c.fg, bg = 'NONE', italic=true, })
