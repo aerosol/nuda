@@ -1,0 +1,82 @@
+[information]
+name='nuda'
+background='dark'
+author='Adam <hq@mtod.org>'
+
+[palette]
+fg='#8f8f8f'
+bg='#141516'
+
+# black
+bla0='#1a1a1a'
+bla1='#646464'
+
+# red
+re0='#5c4e4e'
+re1='#785252'
+
+# green
+gr0='#828378'
+gr1='#82846d'
+
+# yellow
+ye0='#977b68'
+ye1='#b0945d'
+
+# blue
+bl0='#737373'
+bl1='#6f7b86'
+
+# magenta
+ma0='#867a8a'
+ma1='#998d9d'
+
+# cyan
+cy0='#738785'
+cy1='#6a8581'
+
+# white
+wh0='#707376'
+wh1='#848685'
+
+[highlights]
+Normal = 'fg bg'
+Statement = 'fg -'
+Function = 'fg -'
+Title = 'fg - i'
+Identifier = 'fg - i'
+Special = 'fg - i'
+Constant = 'fg - i'
+Delimiter = 'wh0'
+Operator = 'wh0'
+Type = 'fg - i'
+String = 'gr1 - i'
+MsgArea = 'fg bg'
+ModeMsg = 'fg bg'
+MsgSeparator = 'fg bg'
+Directory = 'cy1 - i'
+SpellBad = 're0 - u'
+Folded = 're0 bla0'
+FoldColumn = 're0 bla0'
+StatusLine = 're0 bla0'
+StatusLineNC = 're0 bla0'
+SignColumn = 're0 bla0'
+LineNr = 're0 bla0'
+CursorLineNr = 're0 bla0'
+SpellCap = 'ye0 - u'
+SpellLocal = 'gr0 - u'
+SpellRare = 'ma0 - u'
+NormalNC = 'fg bg'
+Pmenu = 're1 bg - - 50'
+PmenuSel = '- bl0'
+WildMenu = 'fg bl0'
+Comment = 'ma0 - i'
+
+[Treesitter]
+'@variable' = 'cy1'
+TSVariable = 'cy1'
+TSComment = 'link:Comment'
+TSAnnotation = 'bl0'
+TSAttribute = 'cy0'
+TSConstructor = 'cy0'
+TSType = 'cy1'
